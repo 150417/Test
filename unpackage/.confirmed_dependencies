@@ -1,0 +1,108 @@
+{
+	"guide.html": {
+		"resources": [
+			"image/shop01.jpg",
+			"image/shop02.jpg",
+			"image/shop03.jpg"
+		],
+		"refer": [
+			"html/main/home.html"
+		]
+	},
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"guide.html",
+			"html/main/home.html"
+		]
+	},
+	"html/main/shop.html": {
+		"resources": [
+			"image/shop04.jpg",
+			"json/main/shop.json",
+			"js/template.js",
+			"image/shop01.jpg",
+			"image/shop02.jpg"
+		],
+		"refer": [
+			"html/shop/shopDetail.html"
+		]
+	},
+	"html/main/home.html": {
+		"resources": [
+			"fonts/mui.ttf",
+			"html/main/shop.html",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"html/main/side.html",
+			"html/main/user.html",
+			"html/main/order.html",
+			"html/main/shop.html"
+		]
+	},
+	"html/main/user.html": {
+		"refer": [
+			"html/account/login.html",
+			"html/user/userInfo.html"
+		],
+		"resources": [
+			"image/shop03.jpg",
+			"image/head.jpg"
+		]
+	},
+	"html/shop/shopDetail.html": {
+		"resources": [
+			"json/shop/shopDetail.json",
+			"image/product.jpg",
+			"fonts/mui.ttf"
+		],
+		"refer": [
+			"html/account/login.html",
+			"html/order/userOrder.html"
+		]
+	},
+	"html/main/order.html": {
+		"resources": [
+			"json/main/order.json",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		],
+		"refer": []
+	},
+	"html/account/login.html": {
+		"resources": [
+			"json/account/login.json"
+		],
+		"refer": [
+			"html/main/home.html"
+		]
+	},
+	"html/order/userOrder.html": {
+		"resources": [
+			"json/order/userOrder.json"
+		],
+		"refer": []
+	},
+	"html/user/userInfo.html": {
+		"resources": [
+			"json/user/userInfo.json"
+		],
+		"refer": [
+			"html/user/editUserInfo.html",
+			"html/account/login.html"
+		]
+	},
+	"html/user/editUserInfo.html": {
+		"resources": [
+			"html/user/supages/subEdit.html"
+		],
+		"refer": [
+			"html/user/supages/subEdit.html"
+		]
+	}
+}
